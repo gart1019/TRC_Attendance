@@ -1,0 +1,26 @@
+.h:hover span:nth-child(2) {
+    transform: translateX(10px);
+    background-color: var(--primary);
+}
+
+.h.is-active span:nth-child(1) {
+    transform: translate(0px, -2px);
+    transform: rotate(45deg);
+}
+
+.h.is-active span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(15px);
+}
+
+.h.is-active span:nth-child(3) {
+    transform: translate(0px, -2px);
+    transform: rotate(-45deg);
+}
+
+:root {
+    --primary: #788BFF;
+    --secondary: #9BB1FF;
+    --light: #BFD7FF;
+    --dark: #5465FF;
+}
